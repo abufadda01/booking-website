@@ -1,0 +1,42 @@
+.footer{
+    width: 100%;
+    font-size: 16px;
+    max-width: 1024px;
+    margin-top: 30px;
+}
+
+.fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.fList{
+    list-style: none;
+    padding: 0;
+}
+
+.fListItem{
+    margin-bottom: 10px;
+    color: #003580;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 400;
+    transition: 0.2s ease-in;
+}
+.fListItem:hover{
+    color: #b5d5fe;
+}
+
+.fText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    max-width: 1024px;
+    color: #003580;
+    font-size: 28px;
+    font-weight: 500;
+}

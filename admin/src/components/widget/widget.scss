@@ -1,0 +1,65 @@
+.widget{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    justify-content: space-between;
+    -webkit-box-shadow: 3px 6px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 3px 5px 10px 2px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    height: 100px;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+
+    &:hover{
+      -webkit-box-shadow: 3px 6px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 5px 3px 8px 3px rgba(97, 97, 97, 0.47);      
+    }
+
+
+    .left , .right{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         
+
+
+         .title{
+            font-size: 14px;
+            font-weight: bold;
+            color: rgb(118, 118, 118);
+         }
+
+         .counter{
+            font-size: 24px;
+            font-weight: 300;
+         }
+
+         .link{
+            width: max-content;
+            font-size: 12px;
+            border-bottom: 0.5px solid gray;
+         }
+
+         .percentage{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+
+            &.positive{
+                color: rgb(3, 144, 3);
+            }
+            &.negative{
+                color: rgb(223, 26, 26);
+            }
+         }
+
+         .icon{
+            font-size: 24px;
+            border-radius: 5px;
+            align-self: flex-end;
+         }
+         
+    }
+
+
+}
